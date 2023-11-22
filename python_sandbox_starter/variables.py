@@ -13,3 +13,19 @@ VARIABLE RULES:
   - Must start with a letter or an underscore
   - Can have numbers but can not start with one
 """
+x = 1
+y = 2.5
+name = "Josh"
+isOkay = True
+
+a, b, c = (True, "B", 30)
+
+print(a,b,c)
+
+print(type(a))
+
+a = str(a) + "False"
+
+print(type(a))
+
+print(a)
